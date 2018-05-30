@@ -4,7 +4,11 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo app.js --live"
+  },
+  "devDependencies": {
+    "budo": "^11.2.0"
   },
   "author": "",
   "license": "ISC"
